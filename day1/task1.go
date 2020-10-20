@@ -2,7 +2,7 @@ package main
 
 import ("fmt")
 
-func printImage(n int) string {
+func printImage(n int) {
 	if n % 2 == 1 {
 		i := 0
 		for i < n {
@@ -21,7 +21,6 @@ func printImage(n int) string {
 	}else {
 		fmt.Println("error: the value must be an odd number")
 	}
-	return ""
 }
 
 func main() {
